@@ -1,0 +1,83 @@
+#include<stdio.h>
+int main()
+{
+	int a,b,c,d,x;
+	printf("enter five numbers a,b,c,d,x respectively\n");
+	scanf("%d%d%d%d%d",&a,&b,&c,&d,&x);
+	if(x==a)
+	{
+		if(x==b)
+		{
+			printf("error");
+		}
+		if(x==c)
+		{
+			printf("error");
+		}
+		if(x==d)
+		{
+			printf("error");
+		}
+		else
+		{
+			printf("x is equal to a");
+			}	
+	}
+	if(x==b)
+	{
+		if(x==a)
+		{
+			printf("error");
+		}
+		if(x==c)
+		{
+			printf("error");
+		}
+		if(x==d)
+		{
+			printf("error");
+		}
+		else
+		{
+			printf("x is equal to b");
+			}	
+	}
+	if(x==c)
+	{
+		if(x==b)
+		{
+			printf("error");
+		}
+		if(x==a)
+		{
+			printf("error");
+		}
+		if(x==d)
+		{
+			printf("error");
+		}
+		else
+		{
+			printf("x is equal to c");
+			}	
+	}
+	if(x==d)
+	{
+		if(x==b)
+		{
+			printf("error");
+		}
+		if(x==c)
+		{
+			printf("error");
+		}
+		if(x==a)
+		{
+			printf("error");
+		}
+		else
+		{
+			printf("xis equal to d");
+			}	
+	}
+}
